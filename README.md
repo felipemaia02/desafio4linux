@@ -6,6 +6,7 @@ O projeto é tem como linguagens Python(Back-end) utilizando o DJANGO REST e Jav
 Para o pessoal da 4linux:
  -A pasta do projeto foi divida em três subpastas
   -API
+  
     -Nessa pasta foi feito o backend da API em Django REST
     
     -Para validação do login utilizei uma Biblioteca chamada IsAuthenticated, essa biblioteca faz todo o processo de autenticação de login retornando um chave Token utilizei   essa biblioteca devido a sua facilidade e eficácia para trabalhar com autenticação
@@ -13,9 +14,11 @@ Para o pessoal da 4linux:
     -Montei uma metado na views para buscar os dados da API publica e para pegar esses dados apenas se estivesse autenticado
     
   -Desafio
+  
     -Aqui contem os arquivos de configuração da API
     
   -frontend
+  
     -Todo o front foi feito em React, criei duas páginas como solicitado, para acessar a página principal é necessário estar com o token armazenado no localstorage do navegador
     toda vez que entrar na pagina de login e efetuar com sucesso o token é adicionado no localstorage assim podendo acessar a página principal.
     
