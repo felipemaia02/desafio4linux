@@ -24,6 +24,7 @@ export default function Profile(){
         try{
             const response = await api.get('/profile', {headers:{'Authorization': header,}})
             .then(response => {
+                console.log(response.data)
                 setIncidents(response.data);
             })
 
@@ -60,7 +61,7 @@ export default function Profile(){
 
                     <strong>AUTH: {item.Auth}</strong>
 
-                    <strong>HTTPS: {item.HTTPS}</strong>
+                    <strong>HTTPS: {item.HTTPS.toString()}</strong>
 
                     <strong>CORS: {item.Cors}</strong>
 
