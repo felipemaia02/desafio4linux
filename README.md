@@ -5,14 +5,14 @@ O projeto é tem como linguagens Python(Back-end) utilizando o DJANGO REST e Jav
 
 A API do python está no localhost e apresenta duas rotas
  ```
- http://127.0.0.1:5000/profile
- http://127.0.0.1:5000/login
+ http://127.0.0.1:5000/profile ou http://localhost:5000/profile
+ http://127.0.0.1:5000/login ou http://localhost:5000/login
  ```
  
 O servidor frontend está está no localhost e apresenta duas rotas
  ```
- http://127.0.0.1:5000/
- http://127.0.0.1:5000/login
+ http://127.0.0.1:1337/ ou http://localhost:1337/
+ http://127.0.0.1:1337/login ou http://localhost:1337/login
  ```
  
  As autenticações estão feitas devidamente como pedido no roteiro
