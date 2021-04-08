@@ -52,7 +52,7 @@ Para o pessoal da 4linux:
      3.Utilizei o SQLite por facilidade na instalação, podia ter feito em um banco relacional qualquer e não relacional.
     
     
-<h3>COMO A PORTA 80 JÁ ESTAVA SENDO USADA COLOQUEI O FRONTEND NA PORTA 1337(SIM TEM HAVER COM A MÚSICA)<h3>
+
  
  
  <h3>Caso apresente algum problema na execução</h3>
