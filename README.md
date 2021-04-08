@@ -11,8 +11,8 @@ A API do python está no localhost e apresenta duas rotas
  
 O servidor frontend está está no localhost e apresenta duas rotas
  ```
- http://127.0.0.1:1337/ ou http://localhost:1337/
- http://127.0.0.1:1337/login ou http://localhost:1337/login
+ http://127.0.0.1:1337/ ou http://localhost:80/
+ http://127.0.0.1:1337/login ou http://localhost:80/login
  ```
  
  As autenticações estão feitas devidamente como pedido no roteiro
