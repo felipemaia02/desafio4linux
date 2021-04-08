@@ -3,6 +3,20 @@ Projeto com proposta educacional
 
 O projeto é tem como linguagens Python(Back-end) utilizando o DJANGO REST e JavaScript(Front-end) utilizando ReactJs
 
+A API do python está no localhost e apresenta duas rotas
+ ```
+ http://127.0.0.1:5000/profile
+ http://127.0.0.1:5000/login
+ ```
+ 
+O servidor frontend está está no localhost e apresenta duas rotas
+ ```
+ http://127.0.0.1:5000/
+ http://127.0.0.1:5000/login
+ ```
+ 
+ As autenticações estão feitas devidamente como pedido no roteiro
+
 Para o pessoal da 4linux:
  -A pasta do projeto foi divida em três subpastas
  <br>
@@ -18,7 +32,7 @@ Para o pessoal da 4linux:
   <br>
   -Desafio
    <br>
-    1.*Aqui contem os arquivos de configuração da API
+    1.Aqui contem os arquivos de configuração da API
    <br>
    <br>
   -frontend
