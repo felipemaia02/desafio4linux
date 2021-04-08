@@ -9,7 +9,9 @@ Para o pessoal da 4linux:
   -API
     <br>
     1.Nessa pasta foi feito o backend da API em Django REST
+    <br>
     2.Para validação do login utilizei uma Biblioteca chamada IsAuthenticated, essa biblioteca faz todo o processo de autenticação de login retornando um chave Token utilizei   essa biblioteca devido a sua facilidade e eficácia para trabalhar com autenticação
+    <br>
     3.Montei uma metado na views para buscar os dados da API publica e para pegar esses dados apenas se estivesse autenticado
   <br>
   -Desafio
@@ -20,12 +22,15 @@ Para o pessoal da 4linux:
   <br>
     1.Todo o front foi feito em React, criei duas páginas como solicitado, para acessar a página principal é necessário estar com o token armazenado no localstorage do navegador
     toda vez que entrar na pagina de login e efetuar com sucesso o token é adicionado no localstorage assim podendo acessar a página principal.
+    <br>
     2.Nota que ao entrar na página principal fiz limpei o localstorage para que toda vez seja necessário fazer o login, isso foi feito de proposito para uma "segurança" na      página.
     <br>
   -Notas
   <br>
     1.Podia ter feito uma páginação devido a grande quantidade de retornos, eu tenho a capacidade de fazer mas devido ao tempo que não me tinha sobrando optei por deixar assim.
+    <br>
     2.Podia ter colocado o projeto em um docker, tive um problema com o ambiente do python e devido, como estava muito travado em relação ao tempo opitei por deixar assim.
+    <br>
     3.Utilizei o SQLite por facilidade na instalação, podia ter feito em um banco relacional qualquer e não relacional.
     
     
