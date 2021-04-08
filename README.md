@@ -29,20 +29,27 @@ Para o pessoal da 4linux:
  
  <h3>Caso apresente algum problema na execução</h3>
  Para iniciar o projeto criei um shellscript chamado exec.sh, está localizado no diretorio principal do projeto.
- '''
+ 
+ ```
  ./exec.sh
- '''
+ ```
+ 
 Caso o shell script apresentar algum problema, execute o arquivo manage.py que está localizado no diretorio principal do projeto.
-'''
+
+```
 sudo python3 manage.py runserver 0.0.0.0:5000
-'''
+```
+
 Dai execute o servidor do frontend no diretorio do frontend
-'''
+
+```
 npm start
-'''
+```
+
 Se necessário
-'''
+
+```
 npm install
-'''
+```
 
     
