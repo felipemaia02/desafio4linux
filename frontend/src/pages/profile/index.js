@@ -15,6 +15,10 @@ export default function Profile(){
     const token = localStorage.getItem('token')
     const header = "Token " + token
 
+    useEffect(() => {
+        localStorage.clear()
+    })
+
     async function LoadToken(){
         setLoad(true)
         try{
