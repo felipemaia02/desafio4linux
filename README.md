@@ -6,6 +6,7 @@ O projeto é tem como linguagens Python(Back-end) utilizando o DJANGO REST e Jav
 Para o pessoal da 4linux:
  -A pasta do projeto foi divida em três subpastas
  <br>
+ <br>
   -API
     <br>
     1.Nessa pasta foi feito o backend da API em Django REST
@@ -14,9 +15,11 @@ Para o pessoal da 4linux:
     <br>
     3.Montei uma metado na views para buscar os dados da API publica e para pegar esses dados apenas se estivesse autenticado
   <br>
+  <br>
   -Desafio
    <br>
    1.*Aqui contem os arquivos de configuração da API
+   <br>
    <br>
   -frontend
   <br>
@@ -24,6 +27,7 @@ Para o pessoal da 4linux:
     toda vez que entrar na pagina de login e efetuar com sucesso o token é adicionado no localstorage assim podendo acessar a página principal.
     <br>
     2.Nota que ao entrar na página principal fiz limpei o localstorage para que toda vez seja necessário fazer o login, isso foi feito de proposito para uma "segurança" na      página.
+    <br>
     <br>
   -Notas
   <br>
